@@ -218,8 +218,8 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(KM){
-  /*add your code here*/
+function miles(km){
+  return km * 0.621371;
 }
 
 
@@ -232,8 +232,8 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(cm){
+  return cm/30.48;
 }
 
 
@@ -248,8 +248,9 @@ Using the annoyingSong function below do the following:
     "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(number){
+  for (let i = number; i < 0; i--) {
+    console.log("{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall");
 }
 
 
