@@ -19,6 +19,12 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 18;
+
+if (votingAge >= 18) {
+  console.log(true);
+} else {console.log(false);
+}
 
 
 
@@ -33,6 +39,15 @@ Do the following:
    HINT: no function required
 */
 
+let var1 = [];
+let var2 = 14;
+
+if (var2 >= 10) {
+  var1.push(var2);
+} else {
+  console.log("Sorry");
+}
+console.log(var1);
 
 
 
@@ -47,7 +62,7 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+string1
 
 
 
